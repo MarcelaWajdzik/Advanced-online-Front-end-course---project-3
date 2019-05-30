@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.board {
+    width: 50vh;
+    height: 50vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.one {
+    background-color: rgb(122, 57, 57);
+}
+
+.two {
+    background-color: rgb(56, 52, 52);
+}
+
+.six {
+
+    background-color: rgb(54, 54, 138);
+}
+
+
+.ten {
+    background-color: rgb(221, 136, 136);
+}
